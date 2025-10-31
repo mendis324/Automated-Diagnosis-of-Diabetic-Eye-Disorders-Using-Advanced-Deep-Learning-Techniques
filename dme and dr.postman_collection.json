@@ -1,0 +1,88 @@
+{
+	"info": {
+		"_postman_id": "8679c1e1-f71e-4e78-9cfd-213343abfc56",
+		"name": "dme and dr",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16396695"
+	},
+	"item": [
+		{
+			"name": "dme",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/D:/SHIFTDEL/20241206 DR AND DME UWU 1055/application/DME-6-_jpeg.rf.61881113c68465e7965acf6a232ac5c5.jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/dme",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"dme"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "dr",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/D:/SHIFTDEL/20241206 DR AND DME UWU 1055/application/8688f3d0fcaf_png.rf.2fd2b6603fa438aa73e946cf1d5594ce.jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/dr",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"dr"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
